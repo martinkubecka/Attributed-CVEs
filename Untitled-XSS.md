@@ -29,5 +29,5 @@ A stored Cross-Site Scripting (XSS) vulnerability exists in version 1.0 of the *
 </p>
 
 
-
+---
 Discovered by Martin Kubecka, September 18, 2021.

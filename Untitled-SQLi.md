@@ -33,4 +33,5 @@ SQL Injection vulnerability exists in the **Resumes Management and Job Applicati
 - Allow-list Input Validation
 - Escaping All User Supplied Input
 
+---
 Discovered by Martin Kubecka, September 15, 2021.
