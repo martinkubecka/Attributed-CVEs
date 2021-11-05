@@ -26,6 +26,11 @@ SQL Injection vulnerability exists in the **Resumes Management and Job Applicati
 <img src="https://github.com/martinkubecka/CVE-References/blob/main/images/SQLi-2.png" alt="successful Authentication Bypass">
 </p>
 
+### Remediation
 
+- Use of Prepared Statements (with Parameterized Queries)
+- Use of Stored Procedures
+- Allow-list Input Validation
+- Escaping All User Supplied Input
 
 Discovered by Martin Kubecka, September 15, 2021.
