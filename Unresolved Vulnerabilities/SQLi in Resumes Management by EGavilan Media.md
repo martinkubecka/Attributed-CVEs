@@ -17,13 +17,13 @@ SQL Injection vulnerability exists in the **Resumes Management and Job Applicati
   - password: _anything_
 
 <p align="center">
-<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/SQLi-1.png" alt="Vulnerable form">
+<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/egavilan_media/SQLi-1.png" alt="Vulnerable form">
 </p>
 
 5. Press the **Login** button, this will result in a successful Authentication Bypass.
 
 <p align="center">
-<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/SQLi-2.png" alt="successful Authentication Bypass">
+<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/egavilan_media/SQLi-2.png" alt="successful Authentication Bypass">
 </p>
 
 ### Remediation

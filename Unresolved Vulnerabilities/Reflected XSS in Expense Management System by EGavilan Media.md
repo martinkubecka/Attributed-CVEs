@@ -18,14 +18,14 @@ A stored Cross-Site Scripting (XSS) vulnerability exists in version 1.0 of the *
   - Date: _any date_
 
 <p align="center">
-<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/XSS-1.png" alt="Add Expense">
+<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/egavilan_media/XSS-1.png" alt="Add Expense">
 </p>
 
 5. Press the **Save** button and navigate to the page including our added expense. 
 - The result is that the JavaScript command will runs in the description field.
 
 <p align="center">
-<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/XSS-2.png" alt="Alert">
+<img src="https://github.com/martinkubecka/CVE-References/blob/main/images/egavilan_media/XSS-2.png" alt="Alert">
 </p>
 
 
