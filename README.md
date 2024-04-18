@@ -6,6 +6,7 @@
 - [CVE-2021-41432](https://github.com/flatpressblog/flatpress/issues/88) : Stored XSS in the Blog Content in FlatPress 1.2.1
 - [CVE-2021-41433](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2021-41433.md) : Authentication Bypass in Resumes Management by EGavilan Media
 - [CVE-2021-41434](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2021-41434.md) : Stored XSS in Expense Management System by EGavilan Media
+- [CVE-2023-47622](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2023-47622.md) : Multiple Reflected Cross-Site Scripting vulnerabilities in the dashlet refresh functionality in IT Service Management platform iTop maintained by Combodo 
 
 ## :mailbox_with_no_mail:	Unresolved Vulnerabilities
 
