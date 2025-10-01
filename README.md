@@ -7,6 +7,7 @@
 - [CVE-2021-41433](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2021-41433.md) : Authentication Bypass in Resumes Management by EGavilan Media
 - [CVE-2021-41434](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2021-41434.md) : Stored XSS in Expense Management System by EGavilan Media
 - [CVE-2023-47622](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2023-47622.md) : Multiple Reflected Cross-Site Scripting vulnerabilities in the dashlet refresh functionality in IT Service Management platform iTop maintained by Combodo 
+- [CVE-2025-56683](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2025-56683.md) : A DOM-based XSS vulnerability in Logseq version 0.10.9 allows Remote Code Execution by injecting malicious JavaScript through unsanitized plugin README content combined with insufficient protocol validation.
 
 ## :mailbox_with_no_mail:	Unresolved Vulnerabilities
 
