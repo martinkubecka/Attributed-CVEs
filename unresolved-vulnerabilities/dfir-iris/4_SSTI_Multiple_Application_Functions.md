@@ -1,5 +1,5 @@
-# Severity Server-Side Template Injection in Multiple Application Functions
----
+# Server-Side Template Injection in Multiple Application Functions
+
 ## Short Vulnerability Summary
 
 A SSTI vulnerability in DFIR-IRIS v2.4.27 and before allows attackers with module management access to execute arbitrary code on the server, potentially leading to full system compromise.
@@ -57,13 +57,6 @@ SSTI vulnerability appears in the following locations within the application sou
 |-------------|-------|
 | Base Score  | 7.2 (**High**) |
 | Vector      | `CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H` |
-
-### Weakness Enumeration
-
-| CWE ID | Description |
-|--------|-------------|
-| [CWE-XX]() | XXX |
-| [CWE-XX]() | XXX |
 
 ## Proof of Concept (PoC) Exploit
 

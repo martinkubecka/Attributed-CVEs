@@ -1,10 +1,9 @@
-# Cross-site request forgery Vulnerability in User Activation and Deactivation Endpoint
----
+# Cross-site Request Forgery Vulnerability in User Activation and Deactivation Endpoint
+
 ## Short Vulnerability Summary
 
 A CSRF vulnerability in DFIR-IRIS v2.4.27 and before allows attackers to (de)activate any user account, leading to denial of service, disruption of operations, or unauthorized access of previously deactivated accounts.
 
----
 ## Vulnerability Summary
 
 During security testing of the **IRIS** (Incident Response Investigation System) web application **v2.4.22**, a high-severity **Cross-Site Request Forgery** (CSRF) vulnerability was identified in the user **activation** (`/manage/users/activate/cur_id`) and **deactivation** (`/manage/users/deactivate/cur_id`) endpoints. This vulnerability allows a malicious actor to activate or deactivate any user account, including administrators. If exploited, it may lead to denial of service, disruption of operations, or unauthorized access of previously deactivated accounts. The exploit requires minimal user interaction, such as an authenticated administrator clicking a link while logged in.
@@ -23,13 +22,6 @@ The vulnerable code appears in the following locations within the application so
 |-------------|-------|
 | Base Score  | 7.3 (**High**) |
 | Vector      | `CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H` |
-
-### Weakness Enumeration
-
-| CWE ID | Description |
-|--------|-------------|
-| [CWE-XX]() | XXX |
-| [CWE-XX]() | XXX |
 
 ## Proof of Concept (PoC) Exploit
 

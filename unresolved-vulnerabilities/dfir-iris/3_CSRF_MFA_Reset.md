@@ -1,10 +1,9 @@
-# Cross-site request forgery Vulnerability in MFA Reset Endpoint
----
+# Cross-site Request Forgery Vulnerability in MFA Reset Endpoint
+
 ## Short Vulnerability Summary
 
 A CSRF vulnerability in DFIR-IRIS v2.4.27 and before allows attackers to reset MFA configuration for any user account.
 
----
 ## Vulnerability Summary
 
 During security testing of the **IRIS** (Incident Response Investigation System) web application **v2.4.22**, a medium-severity **Cross-Site Request Forgery** (CSRF) vulnerability was identified in the **MFA reset endpoint** (`/manage/access-control/reset-mfa/cur_id`). This vulnerability allows a malicious actor to reset the Multi-Factor Authentication (MFA) configuration for any user account, including administrators. The exploit requires minimal user interaction, such as an authenticated administrator clicking a link while logged in.
@@ -22,13 +21,6 @@ The vulnerable code appears in the following location within the application sou
 |-------------|-------|
 | Base Score  |  6.3 (**Medium**) |
 | Vector      | `CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N` |
-
-### Weakness Enumeration
-
-| CWE ID | Description |
-|--------|-------------|
-| [CWE-XX]() | XXX |
-| [CWE-XX]() | XXX |
 
 ## Proof of Concept (PoC) Exploit
 

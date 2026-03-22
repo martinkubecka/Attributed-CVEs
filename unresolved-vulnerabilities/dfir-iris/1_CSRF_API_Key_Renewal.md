@@ -1,10 +1,9 @@
-# Cross-site request forgery Vulnerability in API Key Renewal Endpoint
----
+# Cross-site Request Forgery Vulnerability in API Key Renewal Endpoint
+
 ## Short Vulnerability Summary
 
 A CSRF vulnerability in DFIR-IRIS v2.4.27 and before allows attackers to renew API keys of any authenticated user, leading to disruption of automated integrations or other operational issues.
 
----
 ## Vulnerability Summary
 
 During security testing of the **IRIS** (Incident Response Investigation System) web application **v2.4.22**, a high-severity **Cross-Site Request Forgery** (CSRF) vulnerability was identified in the API key renewal endpoint `/user/token/renew?cid=`. This vulnerability allows a malicious actor to renew the API key of any authenticated (logged-in) user, potentially leading to unauthorized key renewal, session disruptions, operational issues, and other problems associated with the application's API. To successfully exploit this vulnerability, minimal user interaction is required.
@@ -19,13 +18,6 @@ The `GET /user/token/renew?cid=` endpoint processes API token renewal requests w
 |-------------|-------|
 | Base Score  | 7.1 (**High**) |
 | Vector      | `CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L` |
-
-### Weakness Enumeration
-
-| CWE ID | Description |
-|--------|-------------|
-| [CWE-XX]() | XXX |
-| [CWE-XX]() | XXX |
 
 ## Proof of Concept (PoC) Exploit
 
@@ -64,7 +56,7 @@ The following HTML demonstrates how an attacker could exploit this CSRF vulnerab
 
 3. The victim's API token is renewed without their knowledge or consent.
 
-<img src="admin_api_key_new_value.png" alt="API Key New Value">
+<img src="https://github.com/martinkubecka/Attributed-CVEs/blob/main/images/dfir_iris/admin_api_key_new_value.png" alt="API Key New Value">
 
 > *Note the changed API key value: `rdjVzNsI8YjJNnUtNnv6mtmui9GyUJrIFbdVq2uYRg7Y_Uy3O3MGnaYFRAaNDna70D8NHmU6q3 qs5c8NVdg-iQ`.*
 
