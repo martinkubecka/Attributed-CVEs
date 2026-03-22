@@ -1,5 +1,15 @@
-# CVE-References
+# Attributed CVEs
 
+This repository contains a curated list of CVE entries for vulnerabilities I have discovered and responsibly disclosed.
+
+---
+## :bar_chart: Statistics
+
+- :bug: Total CVEs: 6
+- :office: Vendors affected: 5
+- :warning: Vulnerability types: SQL Injection, Stored, Reflected and DOM-based Cross-Site Scripting
+
+---
 ## :dart: CVE IDs
 
 - [CVE-2021-37413](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2021-37413.md) : Authentication Bypass in CMS provided by GRANDCOM, s.r.o.
@@ -9,7 +19,9 @@
 - [CVE-2023-47622](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2023-47622.md) : Multiple Reflected Cross-Site Scripting vulnerabilities in the dashlet refresh functionality in IT Service Management platform iTop maintained by Combodo 
 - [CVE-2025-56683](https://github.com/martinkubecka/CVE-References/blob/main/CVE-2025-56683.md) : A DOM-based XSS vulnerability in Logseq version 0.10.9 allows Remote Code Execution by injecting malicious JavaScript through unsanitized plugin README content combined with insufficient protocol validation.
 
+---
 ## :mailbox_with_no_mail:	Unresolved Vulnerabilities
 
-- *Nothing to be found here at this moment.*
+*Vulnerabilities that have been reported and are currently under review or awaiting disclosure.*
 
+---
