@@ -78,4 +78,4 @@ TODO
 - **2025-06-27**: I disclosed the vulnerabilities to the DFIR-IRIS support team.  
 - **2025-07-01**: IRIS support team responded that they will investigate, implement a fix, and publish it, stating they will look into it and address the issue as soon as possible.
 - **2025-09-02**: I followed up with another email to the IRIS support team after conducting a retest of the newly published version v2.4.22. Since no further response was received, I reported that all vulnerabilities were still present in the latest version as of that date.
-- **2026-03-22**: I requested a CVE ID from MITRE prior to public disclosure of the vulnerabilities.
+- **2026-03-29**: I requested a CVE ID from MITRE prior to public disclosure of the vulnerabilities.

@@ -12,6 +12,9 @@ During security testing of the **IRIS** (Incident Response Investigation System)
 
 The `GET /user/token/renew?cid=` endpoint processes API token renewal requests without validating a CSRF token. The request is authenticated solely by the user's session cookie, which is automatically included by the browser when the victim visits any cross-origin malicious page.
 
+The vulnerable code appears in the following location within the application source:
+[iris-web/source/app/blueprints/rest/profile_routes.py](https://github.com/dfir-iris/iris-web/blob/a4bfedaae11033005d61ece9d82a5af677c43512/source/app/blueprints/rest/profile_routes.py#L45), line 45.
+
 ### CVSS v3.1 Metrics
 
 | Metric      | Value |
@@ -79,5 +82,5 @@ TODO
 - **2025-03-29**: I disclosed the vulnerabilities to the IRIS support team.  
 - **2025-04-01**: IRIS support team responded that they will investigate, implement a fix, and publish it, stating they will look into it and address the issue as soon as possible.  
 - **2025-09-02**: I followed up with another email to the IRIS support team after conducting a retest of the newly published version v2.4.22. Since no further response was received, I reported that all vulnerabilities were still present in the latest version as of that date.
-- **2026-03-22**: I requested a CVE ID from MITRE prior to public disclosure of the vulnerabilities.
+- **2026-03-29**: I requested a CVE ID from MITRE prior to public disclosure of the vulnerabilities.
 
